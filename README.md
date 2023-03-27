@@ -13,7 +13,7 @@ monitor the collected data at a web-based application.</p>
 You should make a system which records data from temperature and humidity sensors and sends the collected data to a web server and prints them on the console on the cloud side (either AWS or Azure). First, you will have to design the wiring diagram to interface with the TTGO board. 
 
 
-<h2>[Youtube lab3 video link](https://youtu.be/q5iZRKV_wkY)</h2>
+<h2>[Youtube lab3 video link](https://youtu.be/b8c_QVAJ-fI)</h2>
 
 <img src="https://github.com/no4paragon/CS549Iot-lab3/blob/main/circuit.jpg" width="60%" height="60%">
 <img src="https://github.com/no4paragon/CS549Iot-lab3/blob/main/circuit2.jpg" width="60%" height="60%">
