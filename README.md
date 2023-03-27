@@ -3,9 +3,9 @@
 <p align="center">In this lab, you will work with a WiFi module to make a sensor-cloud architecture IoT application.
 TTGO T-Display Board provides a built-in WiFi module to connect the board to the Internet. In this assignment you will follow three steps:
 
-A. Connect your ESP32 TTGO board to the Internet using HTTP protocol.
-B. Setup a cloud-based web application.
-C. Make an application for ESP32 board to sense the temperature and humidity and
+-A. Connect your ESP32 TTGO board to the Internet using HTTP protocol.
+-B. Setup a cloud-based web application.
+-C. Make an application for ESP32 board to sense the temperature and humidity and
 monitor the collected data at a web-based application.</p>
 
 <h2>Deliverables</h2>
