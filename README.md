@@ -1,4 +1,4 @@
-# Lab 3: Uploading sensor data to cloud**
+# Lab 3: Uploading sensor data to cloud
 
 <p align="center">In this lab, you will work with a WiFi module to make a sensor-cloud architecture IoT application.
 TTGO T-Display Board provides a built-in WiFi module to connect the board to the Internet. In this assignment you will follow three steps:
