@@ -36,8 +36,8 @@ void getData(){
   String h = String(humidity);
 
   // To print out on serial, it's not asked for this lab. just for checking.
-  //Serial.print(temp);
-  //Serial.print(humidity);
+  Serial.print(temp);
+  Serial.print(humidity);
 
   for(int i{0}; i<5; i++){ // replace 00.00 with actual value.
     kPath[4+i] = t[i]; // for temp
