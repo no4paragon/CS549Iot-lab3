@@ -16,3 +16,4 @@ You should make a system which records data from temperature and humidity sensor
 <h2>[Youtube lab3 video link](https://youtu.be/q5iZRKV_wkY)</h2>
 
 <img src="https://github.com/no4paragon/CS549Iot-lab3/blob/main/circuit.jpg" width="60%" height="60%">
+<img src="https://github.com/no4paragon/CS549Iot-lab3/blob/main/circuit2.jpg" width="60%" height="60%">
