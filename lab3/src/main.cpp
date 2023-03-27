@@ -35,6 +35,10 @@ void getData(){
   String t = String(temp); // convert then to string
   String h = String(humidity);
 
+  // To print out on serial, it's not asked for this lab. just for checking.
+  //Serial.print(temp);
+  //Serial.print(humidity);
+
   for(int i{0}; i<5; i++){ // replace 00.00 with actual value.
     kPath[4+i] = t[i]; // for temp
     kPath[12+i] = h[i]; // for humidity
@@ -44,7 +48,7 @@ void getData(){
 void setup() {
   Serial.begin(9600);
 
-  //Initialize sensor
+  //Start reading the sensor through I2C connection
   dht.begin(SDA,SCL);
 
   // We start by connecting to a WiFi network
@@ -76,8 +80,8 @@ void loop() {
   WiFiClient c;
   HttpClient http(c);
 
-  getData();
-  
+  getData(); // getting data.
+
   err = http.get(kHostname, port, kPath);
   if (err == 0)
   {
